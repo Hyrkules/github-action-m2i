@@ -1,6 +1,6 @@
 name: "01 - Simple exemple"
 
-on push:
+on: push
 
 jobs:
   afficher-info:
