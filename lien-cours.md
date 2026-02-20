@@ -1,0 +1,1 @@
+https://github.com/Hyrkules/github-action-m2i
