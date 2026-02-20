@@ -1,0 +1,16 @@
+name: "02 - push branches"
+
+on: 
+  push:
+    branches: 
+      - main
+      - develop
+
+jobs:
+  afficher-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher un message
+        run: |
+          echo "Branch detecte"
+          echo "branch : ${{ github.ref_name }}"
